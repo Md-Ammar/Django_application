@@ -1,0 +1,153 @@
+[
+{
+    "model": "recipes.recipe",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "name": "Chicken Pasta",
+        "description": "here is my descriptions",
+        "directions": "here is my directions",
+        "timestamp": "2023-06-14T06:22:08.226Z",
+        "updated": "2023-07-03T14:16:11.292Z",
+        "active": true
+    }
+},
+{
+    "model": "recipes.recipe",
+    "pk": 2,
+    "fields": {
+        "user": 1,
+        "name": "New Recipe",
+        "description": "desc",
+        "directions": "",
+        "timestamp": "2023-06-25T09:15:43.824Z",
+        "updated": "2023-07-03T14:36:09.910Z",
+        "active": true
+    }
+},
+{
+    "model": "recipes.recipe",
+    "pk": 3,
+    "fields": {
+        "user": 1,
+        "name": "new htmx",
+        "description": "heyy",
+        "directions": "",
+        "timestamp": "2023-07-04T09:30:12.707Z",
+        "updated": "2023-07-04T09:53:28.586Z",
+        "active": true
+    }
+},
+{
+    "model": "recipes.recipeingredient",
+    "pk": 1,
+    "fields": {
+        "recipe": 1,
+        "name": "Grilled Chicken",
+        "description": "",
+        "quantity": "1",
+        "quantity_as_float": 1.0,
+        "unit": "pounds",
+        "directions": "",
+        "timestamp": "2023-06-14T06:38:13.534Z",
+        "updated": "2023-07-03T14:16:11.400Z",
+        "active": true
+    }
+},
+{
+    "model": "recipes.recipeingredient",
+    "pk": 4,
+    "fields": {
+        "recipe": 1,
+        "name": "Pasta noodles",
+        "description": null,
+        "quantity": "16",
+        "quantity_as_float": 16.0,
+        "unit": "ounces",
+        "directions": null,
+        "timestamp": "2023-06-25T12:19:39.227Z",
+        "updated": "2023-07-03T14:16:11.472Z",
+        "active": true
+    }
+},
+{
+    "model": "recipes.recipeingredient",
+    "pk": 5,
+    "fields": {
+        "recipe": 1,
+        "name": "Brocolli",
+        "description": "",
+        "quantity": "8",
+        "quantity_as_float": 8.0,
+        "unit": "oz",
+        "directions": "",
+        "timestamp": "2023-07-02T11:47:11.195Z",
+        "updated": "2023-07-03T14:16:11.576Z",
+        "active": true
+    }
+},
+{
+    "model": "recipes.recipeingredient",
+    "pk": 6,
+    "fields": {
+        "recipe": 1,
+        "name": "Tomato",
+        "description": "",
+        "quantity": "1",
+        "quantity_as_float": 1.0,
+        "unit": "ounce",
+        "directions": "",
+        "timestamp": "2023-07-02T11:47:11.212Z",
+        "updated": "2023-07-03T14:16:11.684Z",
+        "active": true
+    }
+},
+{
+    "model": "recipes.recipeingredient",
+    "pk": 7,
+    "fields": {
+        "recipe": 2,
+        "name": "Pasta noodles",
+        "description": null,
+        "quantity": "1",
+        "quantity_as_float": 1.0,
+        "unit": "pound",
+        "directions": null,
+        "timestamp": "2023-07-03T14:36:10.095Z",
+        "updated": "2023-07-03T14:36:10.095Z",
+        "active": true
+    }
+},
+{
+    "model": "recipes.recipeingredient",
+    "pk": 8,
+    "fields": {
+        "recipe": 3,
+        "name": "Pasta noodles",
+        "description": null,
+        "quantity": "1",
+        "quantity_as_float": 1.0,
+        "unit": "pound",
+        "directions": null,
+        "timestamp": "2023-07-04T09:31:25.274Z",
+        "updated": "2023-07-04T09:53:29.645Z",
+        "active": true
+    }
+},
+{
+    "model": "recipes.recipeingredient",
+    "pk": 10,
+    "fields": {
+        "recipe": 3,
+        "name": "pica salsa",
+        "description": null,
+        "quantity": "12",
+        "quantity_as_float": 12.0,
+        "unit": "oz",
+        "directions": null,
+        "timestamp": "2023-07-04T09:53:29.767Z",
+        "updated": "2023-07-04T09:53:29.767Z",
+        "active": true
+    }
+}
+]
